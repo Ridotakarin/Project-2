@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2937cd1ec553aec45961e357bc702d01, type: 3}
+  m_Name: Eggplant Seed
+  m_EditorClassIdentifier: 
+  itemPrice: 0
+  CropSetting:
+    cropProductName: Eggplant
+    growthStages:
+    - {fileID: 11400000, guid: 5a034e77d64eef744955f2b80d41997a, type: 2}
+    - {fileID: 11400000, guid: 0fce40ea7f3fbf942aae97b00a2d403a, type: 2}
+    - {fileID: 11400000, guid: c66556054091afe439601f4f0e3b5f02, type: 2}
+    - {fileID: 11400000, guid: a10de29814ea3bc4c85eae3531f7e3e0, type: 2}
+    - {fileID: 11400000, guid: 111d444b9893d614e9fac6edee933d7e, type: 2}
+    - {fileID: 11400000, guid: 8925a47ec8b3bbb4f81e163097afb18d, type: 2}
+    - {fileID: 11400000, guid: fa09315e8ea061a49b05132d803f901e, type: 2}
+    TimeToGrowth: 8000
+    canReHarvest: 1
+    numOfProductCouldDrop: 0200000003000000
+    ratioForEachNum:
+    - 70
+    - 30
+    season: 1
+  cropLevelImage: []
+  tile: {fileID: 0}
+  ruleTile: {fileID: 0}
+  animatedTile: {fileID: 0}
+  tilemap: {fileID: 0}
+  type: 3
+  range: {x: 5, y: 4, z: 0}
+  stackable: 1
+  image: {fileID: -1531238855, guid: 2c60b7215c492ce4e97bac0488dabdcb, type: 3}
+  itemName: Eggplant Seed

@@ -1,0 +1,110 @@
+.savefile-panel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    translate: 100% 0;
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+}
+
+.savefile-panel-moveleft {
+    translate: 0 0;
+}
+
+.mainmenu-panel {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.mainmenu-panel-moveleft {
+    translate: -100% 0;
+}
+
+.setting-panel {
+    position: absolute;
+    translate: 100% 0;
+    width: 100%;
+    height: 100%;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.setting-panel-moveleft {
+    translate: 0 0;
+}
+
+.controlsetting-panel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    translate: 0 100%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    display: flex;
+    opacity: 1;
+}
+
+.controlsetting-panel-moveup {
+    translate: 0 0%;
+    display: none;
+}
+
+.screensetting-panel {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: stretch;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    translate: 0 100%;
+    display: flex;
+    opacity: 1;
+}
+
+.screensetting-panel-moveup {
+    transition-timing-function: ease;
+    transition-duration: 0s;
+    translate: 0 0%;
+    display: flex;
+}
+
+.soundsetting-panel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    translate: 0 100%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    display: flex;
+    opacity: 1;
+}
+
+.soundsetting-panel-moveup {
+    translate: 0 0%;
+}
+
+.game_title_image-style {
+    flex-grow: 1;
+    background-image: url("project://database/Assets/Farm%20RPG%20-%20Tiny%20Asset%20Pack%20-%20(All%20in%20One)/MainTitle.png?fileID=2800000&guid=80b4dcb84f68edf43a192c17d9c9b480&type=3#MainTitle");
+    background-size: 100% 100%;
+    width: 1400px;
+    height: 40%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.game_title_image-style2 {
+    scale: 1.2 1.2;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}

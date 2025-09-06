@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2937cd1ec553aec45961e357bc702d01, type: 3}
+  m_Name: Unmilled Rice Seed
+  m_EditorClassIdentifier: 
+  itemPrice: 100
+  CropSetting:
+    cropProductName: Unmilled Rice
+    growthStages:
+    - {fileID: 11400000, guid: 5a034e77d64eef744955f2b80d41997a, type: 2}
+    - {fileID: 11400000, guid: 8dc3d1c3f12875049a728c00190d1508, type: 2}
+    - {fileID: 11400000, guid: 4c54e4622bf3a354b8a61174d7ebb0b5, type: 2}
+    - {fileID: 11400000, guid: 9205ff934f048a4498c542b15c66de98, type: 2}
+    - {fileID: 11400000, guid: 72b042acc6d18b340940b33d4b866926, type: 2}
+    - {fileID: 11400000, guid: 03fed469343b5c945a545f62a91ce186, type: 2}
+    - {fileID: 11400000, guid: f92dfa4c910b5d043be350ee1d33f9b3, type: 2}
+    TimeToGrowth: 6000
+    canReHarvest: 0
+    numOfProductCouldDrop: 0200000003000000
+    ratioForEachNum:
+    - 70
+    - 30
+    season: 0
+  cropLevelImage: []
+  foodType: 0
+  tile: {fileID: 0}
+  ruleTile: {fileID: 0}
+  animatedTile: {fileID: 0}
+  tilemap: {fileID: 6474455846099095451, guid: 3e7eb26198626ca45a259f3cbc07d563, type: 3}
+  type: 3
+  range: {x: 5, y: 4, z: 0}
+  stackable: 1
+  image: {fileID: -1504335201, guid: 6d5dacad31d5dc9458c33856e6a57497, type: 3}
+  itemName: Unmilled Rice Seed

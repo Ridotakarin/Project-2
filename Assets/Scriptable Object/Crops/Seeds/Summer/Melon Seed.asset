@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2937cd1ec553aec45961e357bc702d01, type: 3}
+  m_Name: Melon Seed
+  m_EditorClassIdentifier: 
+  itemPrice: 0
+  CropSetting:
+    cropProductName: Melon
+    growthStages:
+    - {fileID: 11400000, guid: c741bb8cb37a32b4a8517b13fbbeeaa4, type: 2}
+    - {fileID: 11400000, guid: fce38dc706656a74882ee9417fbfdb5c, type: 2}
+    - {fileID: 11400000, guid: 0763b393ad0dc0147a0011ff5ed6ddb8, type: 2}
+    - {fileID: 11400000, guid: e4a5000170c8d0d438aaa44db5b53d4f, type: 2}
+    - {fileID: 11400000, guid: 0a87ce678eab17245a61e264201653ea, type: 2}
+    - {fileID: 11400000, guid: 1de452d69f1e197439a389bd7c8e74c5, type: 2}
+    - {fileID: 11400000, guid: d67a84999606b7642b22a051ca6d4884, type: 2}
+    TimeToGrowth: 6000
+    canReHarvest: 0
+    numOfProductCouldDrop: 01000000
+    ratioForEachNum:
+    - 100
+    season: 1
+  cropLevelImage: []
+  tile: {fileID: 0}
+  ruleTile: {fileID: 0}
+  animatedTile: {fileID: 0}
+  tilemap: {fileID: 0}
+  type: 3
+  range: {x: 5, y: 4, z: 0}
+  stackable: 1
+  image: {fileID: -1320354681, guid: 2c60b7215c492ce4e97bac0488dabdcb, type: 3}
+  itemName: Melon Seed

@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="LoadingScreen" src="project://database/Assets/UI%20Toolkit/Uxml/LoadingScreen.uxml?fileID=9197481963319205126&amp;guid=98f3b818fc9af01499d9ab714ddc3b8b&amp;type=3#LoadingScreen" />
+    <ui:Template name="SaveFile" src="project://database/Assets/UI%20Toolkit/Uxml/SaveFile.uxml?fileID=9197481963319205126&amp;guid=39a4f0435d28d6d4381f20839f855151&amp;type=3#SaveFile" />
+    <ui:Template name="SettingPanel" src="project://database/Assets/UI%20Toolkit/Uxml/SettingPanel.uxml?fileID=9197481963319205126&amp;guid=791b335b7e77dab42891a32cbc00eb83&amp;type=3#SettingPanel" />
+    <ui:Template name="LinkBioIcon" src="project://database/Assets/UI%20Toolkit/Uxml/LinkBioIcon.uxml?fileID=9197481963319205126&amp;guid=f8365c0843155d749a2383cef1a2ff93&amp;type=3#LinkBioIcon" />
+    <Style src="project://database/Assets/UI%20Toolkit/Style/button-style.uss?fileID=7433441132597879392&amp;guid=98856b5a5ed39424abb6e7cecc2711e9&amp;type=3#button-style" />
+    <Style src="project://database/Assets/UI%20Toolkit/Uss/Common.uss?fileID=7433441132597879392&amp;guid=e5eed4f115c0f5e4daef98d8b44f43e3&amp;type=3#Common" />
+    <ui:VisualElement name="MainMenuContainer" class="mainmenu-panel">
+        <ui:VisualElement style="flex-grow: 1;" />
+        <ui:VisualElement name="GameTitleImage" class="game_title_image-style" />
+        <ui:Label tabindex="0" text="ELORIA" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GameTitleLabel" enable-rich-text="true" class="gametitlelabel-style gametitlelable--zoom" style="transition-property: all; transition-duration: 1s; transition-timing-function: ease; transition-delay: 0s; text-shadow: 10px 10px 4.5px rgb(132, 74, 74); letter-spacing: 10px; word-spacing: 0; -unity-font-style: normal; color: rgb(127, 255, 209); font-size: 360px; height: auto; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Jersey10-Regular.ttf?fileID=12800000&amp;guid=e2131143879406447bc4171be4019b36&amp;type=3#Jersey10-Regular&quot;); display: none;" />
+        <ui:VisualElement name="ButtonContainer" style="align-items: center; align-self: auto; margin-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; width: auto; justify-content: flex-start; height: auto;">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="SingleplayerButton" text="Singleplayer" class="button-style" style="padding-left: 10px; background-image: url(&quot;project://database/Assets/Farm%20RPG%20-%20Tiny%20Asset%20Pack%20-%20(All%20in%20One)/Farm%20RPG%20-%20Tiny%20Asset%20Pack%20-%20(All%20in%20One)/UI%20-%20Tiny%20Asset%20Pack/button.png?fileID=323141436&amp;guid=45bb0416b11523a49bd131d10df5c07f&amp;type=3#button_87&quot;);" />
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="MultiplayerButton" text="Multiplayer" class="button-style" style="padding-left: 10px;" />
+            <ui:VisualElement name="ButtonContainer" style="flex-grow: 1; flex-direction: row; justify-content: space-between; width: 600px; align-items: center; margin-top: 20px;">
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="OptionsButton" text="Options" class="button-style" style="padding-left: 10px; width: 290px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuitButton" text="Quit" class="button-style" style="padding-left: 10px; width: 290px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; width: 599px;" />
+        <ui:Instance template="LinkBioIcon" style="position: absolute; bottom: auto; left: auto; right: 20px; top: 1000px;" />
+    </ui:VisualElement>
+    <ui:Instance template="LoadingScreen" name="LoadingScreen" style="display: none; position: absolute; right: auto; width: 100%; height: 100%; visibility: visible; overflow: visible;" />
+    <ui:Instance template="SaveFile" name="SaveFilePanel" class="savefile-panel" style="transition-duration: 0.5s; transition-timing-function: ease-in-out;" />
+    <ui:Instance template="SettingPanel" name="SettingPanel" class="setting-panel" />
+</ui:UXML>

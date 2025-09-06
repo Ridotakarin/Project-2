@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Style/button-style.uss?fileID=7433441132597879392&amp;guid=98856b5a5ed39424abb6e7cecc2711e9&amp;type=3#button-style" />
+    <ui:ScrollView name="ControlSettingScrollView" style="width: 100%; height: 100%;">
+        <ui:VisualElement name="MouseSpeedSetting" style="flex-grow: 1; width: 100%; height: 300px; flex-direction: row; justify-content: space-between; align-items: center; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 20px; padding-right: 40px; padding-bottom: 20px; padding-left: 40px;">
+            <ui:Label tabindex="-1" text="Mouse Speed" parse-escape-sequences="true" display-tooltip-when-elided="true" name="OptionLable" style="font-size: 80px; color: rgb(255, 255, 255); -unity-font: url(&quot;project://database/Assets/Fonts/Jersey10-Regular.ttf?fileID=12800000&amp;guid=e2131143879406447bc4171be4019b36&amp;type=3#Jersey10-Regular&quot;); -unity-font-definition: initial; width: 60%; height: auto;" />
+            <ui:Slider high-value="100" name="OveralSlider" class="slider-style" style="width: 400px; height: 100px; align-items: stretch; justify-content: flex-start;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="HotKeySetting" style="flex-grow: 1; width: 100%; height: auto; flex-direction: row; justify-content: space-between; align-items: center; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 20px; padding-right: 40px; padding-bottom: 20px; padding-left: 40px;">
+            <ui:VisualElement name="HotKeyContainer" style="flex-grow: 1; flex-direction: column;">
+                <ui:Label text="Hot Key" style="color: rgb(255, 255, 255); -unity-font-definition: url(&quot;project://database/Assets/Fonts/Jersey10-Regular.ttf?fileID=12800000&amp;guid=e2131143879406447bc4171be4019b36&amp;type=3#Jersey10-Regular&quot;); font-size: 80px; width: auto; height: auto;" />
+                <ui:VisualElement name="VisualElement" style="flex-grow: 1; margin-left: 100px; margin-top: 40px;">
+                    <ui:TextField label="Move " placeholder-text="filler text" name="MoveText" value="A" class="textbox-style" style="justify-content: center; align-items: center;" />
+                    <ui:TextField label="Move " placeholder-text="filler text" name="MoveText" value="abcddadsadadadadad" class="textbox-style" style="justify-content: center; align-items: center;" />
+                    <ui:TextField label="Move " placeholder-text="filler text" name="MoveText" value="abcddadsadadadadad" class="textbox-style" style="justify-content: center; align-items: center;" />
+                    <ui:TextField label="Move " placeholder-text="filler text" name="MoveText" value="abcddadsadadadadad" class="textbox-style" style="justify-content: center; align-items: center;" />
+                    <ui:TextField label="Move " placeholder-text="filler text" name="MoveText" value="abcddadsadadadadad" class="textbox-style" style="justify-content: center; align-items: center;" />
+                    <ui:TextField label="Move " placeholder-text="filler text" name="MoveText" value="abcddadsadadadadad" class="textbox-style" style="justify-content: center; align-items: center;" />
+                    <ui:TextField label="Move " placeholder-text="filler text" name="MoveText" value="abcddadsadadadadad" class="textbox-style" style="justify-content: center; align-items: center;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:ScrollView>
+</ui:UXML>

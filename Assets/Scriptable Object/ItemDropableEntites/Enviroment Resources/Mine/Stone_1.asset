@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2962c5bcf9230f6418a39d9de2f65c7c, type: 3}
+  m_Name: Stone_1
+  m_EditorClassIdentifier: 
+  id: d40beaf5-8cfa-436e-baad-9c73057128e0
+  mineBlockIdleSprite: {fileID: -999826890, guid: 7eb771450e06c0e4092a9aff9b8e392f, type: 3}
+  mineBlockHitSprite: {fileID: 2041080124, guid: 7eb771450e06c0e4092a9aff9b8e392f, type: 3}
+  ItemToDrop: {fileID: 11400000, guid: 67d34467006b5a845b5a8db94a4b090e, type: 2}
+  numOfItemCouldDrop: 0100000002000000
+  ratioForEachNum:
+  - 80
+  - 20

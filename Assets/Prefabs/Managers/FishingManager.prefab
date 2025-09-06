@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3680831967280162644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7482785495504190529}
+  - component: {fileID: 2986439895626624382}
+  m_Layer: 0
+  m_Name: FishingManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7482785495504190529
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3680831967280162644}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 107.03074, y: 0.31241, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2986439895626624382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3680831967280162644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93293615647ba9e4ebe2b4f3281d022b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  springFishes:
+  - {fileID: 11400000, guid: eccd7041509e74f47a052c803f53751c, type: 2}
+  - {fileID: 11400000, guid: a03c156358fd78d41ab84deb1a093151, type: 2}
+  - {fileID: 11400000, guid: a98f1c91d1a2b8849b79af5a4f88a13b, type: 2}
+  - {fileID: 11400000, guid: 2a11000283b6d8e4aafcf046d4eaac0c, type: 2}
+  - {fileID: 11400000, guid: d67fbfd3d181b504891122a3631fcff5, type: 2}
+  summerFishes:
+  - {fileID: 11400000, guid: 1900747838227be44b561099bd4ef5be, type: 2}
+  - {fileID: 11400000, guid: 0ed9284739a141546a1d9aaacebc7eff, type: 2}
+  - {fileID: 11400000, guid: 5733f1b6fdd943247a903a3849306d76, type: 2}
+  - {fileID: 11400000, guid: 38b7f334e8192864d8d4e8df49c60d88, type: 2}
+  - {fileID: 11400000, guid: 1e0467bff96ae7941be45833d32602b8, type: 2}

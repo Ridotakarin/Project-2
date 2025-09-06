@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2937cd1ec553aec45961e357bc702d01, type: 3}
+  m_Name: Strawberry Seed
+  m_EditorClassIdentifier: 
+  itemPrice: 100
+  CropSetting:
+    cropProductName: Strawberry
+    growthStages:
+    - {fileID: 11400000, guid: 0894b3f4eacc0ba4d979ccd694b8fc91, type: 2}
+    - {fileID: 11400000, guid: 120951d2de6d48f40b299e5ba87dc3f7, type: 2}
+    - {fileID: 11400000, guid: 242489af990b5f8458b6ed397d511075, type: 2}
+    - {fileID: 11400000, guid: 019f230a70f6b6c488948d8b9c481866, type: 2}
+    - {fileID: 11400000, guid: 1f026517fe9052e46bb7a23e6fddcfe3, type: 2}
+    - {fileID: 11400000, guid: 1e683a0d5220b6e44bf10ff4cd594f15, type: 2}
+    - {fileID: 11400000, guid: 4e64c175373b5c34ca616d638531cb14, type: 2}
+    TimeToGrowth: 8000
+    canReHarvest: 1
+    numOfProductCouldDrop: 0200000003000000
+    ratioForEachNum:
+    - 70
+    - 30
+    season: 0
+  cropLevelImage: []
+  foodType: 0
+  tile: {fileID: 0}
+  ruleTile: {fileID: 0}
+  animatedTile: {fileID: 0}
+  tilemap: {fileID: 6474455846099095451, guid: 3e7eb26198626ca45a259f3cbc07d563, type: 3}
+  type: 3
+  range: {x: 5, y: 4, z: 0}
+  stackable: 1
+  image: {fileID: 1764248313, guid: 6d5dacad31d5dc9458c33856e6a57497, type: 3}
+  itemName: Strawberry Seed

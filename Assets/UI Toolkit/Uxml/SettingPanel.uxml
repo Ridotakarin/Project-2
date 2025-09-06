@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="ScreenSetting" src="project://database/Assets/UI%20Toolkit/Uxml/ScreenSetting.uxml?fileID=9197481963319205126&amp;guid=720906334b9bf52458cab8b9f17b85af&amp;type=3#ScreenSetting" />
+    <ui:Template name="SoundSetting" src="project://database/Assets/UI%20Toolkit/Uxml/SoundSetting.uxml?fileID=9197481963319205126&amp;guid=ae87b8ff6248aaa4c97c06bd5c106e2f&amp;type=3#SoundSetting" />
+    <ui:Template name="ControlSetting" src="project://database/Assets/UI%20Toolkit/Uxml/ControlSetting.uxml?fileID=9197481963319205126&amp;guid=74ba7c0a7faf9174cb07a3e671e99d36&amp;type=3#ControlSetting" />
+    <Style src="project://database/Assets/UI%20Toolkit/Style/button-style.uss?fileID=7433441132597879392&amp;guid=98856b5a5ed39424abb6e7cecc2711e9&amp;type=3#button-style" />
+    <Style src="project://database/Assets/UI%20Toolkit/Uss/Common.uss?fileID=7433441132597879392&amp;guid=e5eed4f115c0f5e4daef98d8b44f43e3&amp;type=3#Common" />
+    <ui:VisualElement name="SettingPanelContainer" style="flex-grow: 1; width: 1920px; height: 1080px; align-items: auto; justify-content: space-around; flex-direction: row;">
+        <ui:VisualElement name="LableContainer" style="flex-grow: 1; height: 100%; width: 30%;">
+            <ui:Label tabindex="-1" text="Options" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 120px; -unity-font: url(&quot;project://database/Assets/Fonts/Jersey10-Regular.ttf?fileID=12800000&amp;guid=e2131143879406447bc4171be4019b36&amp;type=3#Jersey10-Regular&quot;); -unity-font-definition: initial; color: rgb(255, 255, 255); margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; text-shadow: 5px 5px 4px rgb(0, 0, 0);" />
+            <ui:VisualElement name="ButtonContainer" style="flex-grow: 1; justify-content: space-around;">
+                <ui:Button text="Screen" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ScreenSettingButton" class="button-style2" />
+                <ui:Button text="Sound" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SoundSettingButton" class="button-style2" />
+                <ui:Button text="Control" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ControlSettingButton" class="button-style2" />
+                <ui:Button text="Back" parse-escape-sequences="true" display-tooltip-when-elided="true" name="OptionsBackButton" class="button-style2" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="OptionContainer" style="flex-grow: 1; width: 70%; height: 100%; justify-content: center; align-items: center; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 40px; padding-right: 40px; padding-bottom: 40px; padding-left: 40px; background-color: rgba(80, 80, 80, 0.28);">
+            <ui:Instance template="ScreenSetting" name="ScreenSetting" class="screensetting-panel screensetting-panel-moveup" style="display: flex;" />
+            <ui:Instance template="SoundSetting" name="SoundSetting" class="soundsetting-panel" style="transition-timing-function: ease-in-out; transition-duration: 0.5s;" />
+            <ui:Instance template="ControlSetting" name="ControlSetting" class="controlsetting-panel" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

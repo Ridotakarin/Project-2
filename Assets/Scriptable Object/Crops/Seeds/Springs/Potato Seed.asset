@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2937cd1ec553aec45961e357bc702d01, type: 3}
+  m_Name: Potato Seed
+  m_EditorClassIdentifier: 
+  itemPrice: 100
+  CropSetting:
+    cropProductName: Potato
+    growthStages:
+    - {fileID: 11400000, guid: c741bb8cb37a32b4a8517b13fbbeeaa4, type: 2}
+    - {fileID: 11400000, guid: d0a1a40a7de3b324e92fe0a9ce4ba219, type: 2}
+    - {fileID: 11400000, guid: eb2027c286458d647abdf9148e819083, type: 2}
+    - {fileID: 11400000, guid: 68ad410d6bde90b4a9926ba0bc90aec8, type: 2}
+    - {fileID: 11400000, guid: 46f9da1343f43a440943decd9f13810d, type: 2}
+    - {fileID: 11400000, guid: ac9d8c1a3e6770648a94c6f47fe0add4, type: 2}
+    - {fileID: 11400000, guid: e797c38b697ce7446a4afb93a83331dd, type: 2}
+    TimeToGrowth: 4320
+    canReHarvest: 0
+    numOfProductCouldDrop: 0100000002000000
+    ratioForEachNum:
+    - 70
+    - 30
+    season: 0
+  cropLevelImage: []
+  foodType: 0
+  tile: {fileID: 0}
+  ruleTile: {fileID: 0}
+  animatedTile: {fileID: 0}
+  tilemap: {fileID: 6474455846099095451, guid: 3e7eb26198626ca45a259f3cbc07d563, type: 3}
+  type: 3
+  range: {x: 5, y: 4, z: 0}
+  stackable: 1
+  image: {fileID: -493672076, guid: 6d5dacad31d5dc9458c33856e6a57497, type: 3}
+  itemName: Potato Seed

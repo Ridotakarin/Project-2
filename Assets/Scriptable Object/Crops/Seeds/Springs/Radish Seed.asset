@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2937cd1ec553aec45961e357bc702d01, type: 3}
+  m_Name: Radish Seed
+  m_EditorClassIdentifier: 
+  itemPrice: 100
+  CropSetting:
+    cropProductName: Radish
+    growthStages:
+    - {fileID: 11400000, guid: 9ae68e0cd4a174b4787081a8909a9257, type: 2}
+    - {fileID: 11400000, guid: 03fd5a8c6a87df948bf1a29acdb27c27, type: 2}
+    - {fileID: 11400000, guid: 9a70cd831f36889409050f6553d47e95, type: 2}
+    - {fileID: 11400000, guid: 282b0215f12456744b0b589403834fca, type: 2}
+    - {fileID: 11400000, guid: 6f8f30a7599bbe24aba70331d0da7341, type: 2}
+    - {fileID: 11400000, guid: e6935f9b12fc15e41b9fd272d26b02e1, type: 2}
+    - {fileID: 11400000, guid: d112609e310150b4992cd0894b7182af, type: 2}
+    TimeToGrowth: 4320
+    canReHarvest: 0
+    numOfProductCouldDrop: 01000000
+    ratioForEachNum:
+    - 100
+    season: 0
+  cropLevelImage: []
+  foodType: 0
+  tile: {fileID: 0}
+  ruleTile: {fileID: 0}
+  animatedTile: {fileID: 0}
+  tilemap: {fileID: 6474455846099095451, guid: 3e7eb26198626ca45a259f3cbc07d563, type: 3}
+  type: 3
+  range: {x: 5, y: 4, z: 0}
+  stackable: 1
+  image: {fileID: -944775132, guid: 6d5dacad31d5dc9458c33856e6a57497, type: 3}
+  itemName: Radish Seed

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2937cd1ec553aec45961e357bc702d01, type: 3}
+  m_Name: Wood_Fence
+  m_EditorClassIdentifier: 
+  itemPrice: 0
+  CropSetting:
+    cropProductName: 
+    growthStages: []
+    TimeToGrowth: 0
+    canReHarvest: 0
+    numOfProductCouldDrop: 
+    ratioForEachNum: []
+    season: 0
+  cropLevelImage: []
+  foodType: 0
+  tile: {fileID: 0}
+  ruleTile: {fileID: 11400000, guid: 50af38a4707049542b21dc1a3210577f, type: 2}
+  animatedTile: {fileID: 0}
+  tilemap: {fileID: 0}
+  type: 0
+  range: {x: 5, y: 4, z: 0}
+  stackable: 1
+  image: {fileID: -1773643868, guid: 339a81f4c58050743a8361273b0b1167, type: 3}
+  itemName: Wood_Fence

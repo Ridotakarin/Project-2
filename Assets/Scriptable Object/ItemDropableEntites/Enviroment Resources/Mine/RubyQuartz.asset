@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2962c5bcf9230f6418a39d9de2f65c7c, type: 3}
+  m_Name: RubyQuartz
+  m_EditorClassIdentifier: 
+  id: 14c64bb8-be47-431e-9766-a51d9f3f9c70
+  mineBlockIdleSprite: {fileID: 1928625656, guid: 7eb771450e06c0e4092a9aff9b8e392f, type: 3}
+  mineBlockHitSprite: {fileID: -1450097760, guid: 7eb771450e06c0e4092a9aff9b8e392f, type: 3}
+  ItemToDrop: {fileID: 11400000, guid: d2061a88552170d478cf614c4144fc00, type: 2}
+  numOfItemCouldDrop: 01000000
+  ratioForEachNum:
+  - 100

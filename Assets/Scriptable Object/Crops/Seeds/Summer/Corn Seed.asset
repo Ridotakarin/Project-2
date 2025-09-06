@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2937cd1ec553aec45961e357bc702d01, type: 3}
+  m_Name: Corn Seed
+  m_EditorClassIdentifier: 
+  itemPrice: 0
+  CropSetting:
+    cropProductName: Corn
+    growthStages:
+    - {fileID: 11400000, guid: 5a034e77d64eef744955f2b80d41997a, type: 2}
+    - {fileID: 11400000, guid: 5b66ff12ffc1c9f4685e07e62736467f, type: 2}
+    - {fileID: 11400000, guid: 159b63534ffde6e4ebbf7d2202c0bc63, type: 2}
+    - {fileID: 11400000, guid: 1595d6a329056de4d84c1b73d6ad9f05, type: 2}
+    - {fileID: 11400000, guid: 6a6af854bda15604595ac0ec63da6103, type: 2}
+    - {fileID: 11400000, guid: e6ba8505ddaf86342affe66126345e4e, type: 2}
+    - {fileID: 11400000, guid: 6670f3de804f5314ba03b3765925bc03, type: 2}
+    - {fileID: 11400000, guid: 343edc1a401d20d4fb378eee9c5269cf, type: 2}
+    - {fileID: 11400000, guid: 6f345d9b75aa811448368c54e33d2df3, type: 2}
+    TimeToGrowth: 8000
+    canReHarvest: 1
+    numOfProductCouldDrop: 0100000002000000
+    ratioForEachNum:
+    - 70
+    - 30
+    season: 1
+  cropLevelImage: []
+  tile: {fileID: 0}
+  ruleTile: {fileID: 0}
+  animatedTile: {fileID: 0}
+  tilemap: {fileID: 0}
+  type: 3
+  range: {x: 5, y: 4, z: 0}
+  stackable: 1
+  image: {fileID: -543085910, guid: 2c60b7215c492ce4e97bac0488dabdcb, type: 3}
+  itemName: Corn Seed

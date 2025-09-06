@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2937cd1ec553aec45961e357bc702d01, type: 3}
+  m_Name: Tomato Seed
+  m_EditorClassIdentifier: 
+  itemPrice: 0
+  CropSetting:
+    cropProductName: Tomato
+    growthStages:
+    - {fileID: 11400000, guid: 9ae68e0cd4a174b4787081a8909a9257, type: 2}
+    - {fileID: 11400000, guid: de3313b2a1ba4124ab88aeae163a6b0c, type: 2}
+    - {fileID: 11400000, guid: 6520357c7df5a1c42ab5a855e42ff789, type: 2}
+    - {fileID: 11400000, guid: c83e03678179411429d90274ee95d945, type: 2}
+    - {fileID: 11400000, guid: b87c902856a7df8429b10271412324c2, type: 2}
+    - {fileID: 11400000, guid: a957ffa19502133438ce6c24147304d2, type: 2}
+    - {fileID: 11400000, guid: 59b5b13649c5fe7489fdb1d7ab3b0002, type: 2}
+    TimeToGrowth: 8000
+    canReHarvest: 1
+    numOfProductCouldDrop: 0100000002000000
+    ratioForEachNum:
+    - 70
+    - 30
+    season: 1
+  cropLevelImage: []
+  tile: {fileID: 0}
+  ruleTile: {fileID: 0}
+  animatedTile: {fileID: 0}
+  tilemap: {fileID: 0}
+  type: 3
+  range: {x: 5, y: 4, z: 0}
+  stackable: 1
+  image: {fileID: 86337522, guid: 2c60b7215c492ce4e97bac0488dabdcb, type: 3}
+  itemName: Tomato Seed

@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="InitFileName" src="project://database/Assets/UI%20Toolkit/Uxml/InitFileName.uxml?fileID=9197481963319205126&amp;guid=eee778d692acc85418aa6abe1cd3842c&amp;type=3#InitFileName" />
+    <Style src="project://database/Assets/UI%20Toolkit/Style/button-style.uss?fileID=7433441132597879392&amp;guid=98856b5a5ed39424abb6e7cecc2711e9&amp;type=3#button-style" />
+    <ui:VisualElement name="SaveFilePanel" style="flex-grow: 1; width: 100%; height: 100%; align-self: auto; align-items: center; justify-content: center;">
+        <ui:Label tabindex="-1" text="Choice Save File" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ChoiceSaveFile" style="-unity-text-align: upper-center; justify-content: center; align-items: center; font-size: 120px; -unity-font: url(&quot;project://database/Assets/Fonts/Jersey10-Regular.ttf?fileID=12800000&amp;guid=e2131143879406447bc4171be4019b36&amp;type=3#Jersey10-Regular&quot;); -unity-font-definition: initial; color: rgb(255, 255, 255); height: 20%; margin-top: 20px;" />
+        <ui:ScrollView name="SaveFileList" horizontal-scroller-visibility="Hidden" touch-scroll-type="Clamped" nested-interaction-kind="Default" vertical-scroller-visibility="Hidden" enabled="true" focusable="false" style="width: 80%; height: 60%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; overflow: visible; visibility: visible; opacity: 1; align-content: flex-start;" />
+        <ui:VisualElement name="ButtonContainer" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: space-around; height: 20%; align-self: auto; margin-top: 0; margin-right: 0; margin-bottom: 20px; margin-left: 0; width: 80%;">
+            <ui:Button text="New Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NewGameButton" class="button-style" style="width: 460px;" />
+            <ui:Button text="Load Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LoadGameButton" enabled="false" focusable="true" language-direction="Inherit" emoji-fallback-support="true" enable-rich-text="true" class="button-style" style="width: 460px; visibility: visible; overflow: hidden; opacity: 1;" />
+            <ui:Button text="Back" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SaveFileBackButton" class="button-style" style="width: 460px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Instance template="InitFileName" name="InitFileNamePanel" style="position: absolute; width: 100%; height: 100%; display: none;" />
+</ui:UXML>

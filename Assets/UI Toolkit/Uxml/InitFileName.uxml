@@ -1,0 +1,13 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Uss/textbox.uss?fileID=7433441132597879392&amp;guid=858182d32aa9bc94b97b9e061ace5077&amp;type=3#textbox" />
+    <Style src="project://database/Assets/UI%20Toolkit/Style/button-style.uss?fileID=7433441132597879392&amp;guid=98856b5a5ed39424abb6e7cecc2711e9&amp;type=3#button-style" />
+    <ui:VisualElement style="flex-grow: 1; -unity-text-align: upper-center; justify-content: center; align-items: center; background-color: rgba(72, 72, 72, 0.5);">
+        <ui:VisualElement style="flex-grow: 1; height: 60%; justify-content: flex-end; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; width: 100%; align-items: center;">
+            <ui:TextField label="Enter Game Name" placeholder-text="New World" max-length="-1" password="false" hide-placeholder-on-focus="false" name="FileNameInput" style="flex-direction: column; align-items: center; justify-content: center; -unity-text-align: upper-center; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Jersey10-Regular.ttf?fileID=12800000&amp;guid=e2131143879406447bc4171be4019b36&amp;type=3#Jersey10-Regular&quot;); font-size: 80px; background-image: url(&quot;project://database/Assets/Farm%20RPG%20-%20Tiny%20Asset%20Pack%20-%20(All%20in%20One)/Farm%20RPG%20-%20Tiny%20Asset%20Pack%20-%20(All%20in%20One)/UI%20-%20Tiny%20Asset%20Pack/0.2.png?fileID=815281488&amp;guid=d9833c41400bd4b47912eb1ba4eb85e6&amp;type=3#0.2_6&quot;); height: auto; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; width: 1000px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: row; align-items: flex-start; justify-content: center; height: 40%; align-content: flex-start; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; width: 100%;">
+            <ui:Button text="Confirm" name="ConfirmButton" class="button-style" style="width: 400px; align-items: stretch; align-self: auto; height: 120px;" />
+            <ui:Button text="Cancle" name="CancelButton" class="button-style" style="width: 400px; align-self: auto;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

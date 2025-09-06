@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2937cd1ec553aec45961e357bc702d01, type: 3}
+  m_Name: Cauliflower Seed
+  m_EditorClassIdentifier: 
+  itemPrice: 100
+  CropSetting:
+    cropProductName: Cauliflower
+    growthStages:
+    - {fileID: 11400000, guid: 9ae68e0cd4a174b4787081a8909a9257, type: 2}
+    - {fileID: 11400000, guid: 1c145a4e3d121e94d95d46ae113b6bd8, type: 2}
+    - {fileID: 11400000, guid: c06c36b3e21877641a3ad694ff8333a8, type: 2}
+    - {fileID: 11400000, guid: 94c9d56d78ec5094087628c9638a6034, type: 2}
+    - {fileID: 11400000, guid: f8a9bbdc1545b9c4e8dee9165e298826, type: 2}
+    - {fileID: 11400000, guid: 6b137cdc8b7312142b79548d3e59d812, type: 2}
+    - {fileID: 11400000, guid: 74214b92eebfa4543bacfe4f79a2be85, type: 2}
+    TimeToGrowth: 4320
+    canReHarvest: 0
+    numOfProductCouldDrop: 01000000
+    ratioForEachNum:
+    - 100
+    season: 0
+  cropLevelImage: []
+  foodType: 0
+  tile: {fileID: 0}
+  ruleTile: {fileID: 0}
+  animatedTile: {fileID: 0}
+  tilemap: {fileID: 6474455846099095451, guid: 3e7eb26198626ca45a259f3cbc07d563, type: 3}
+  type: 3
+  range: {x: 5, y: 4, z: 0}
+  stackable: 1
+  image: {fileID: -1653823893, guid: 6d5dacad31d5dc9458c33856e6a57497, type: 3}
+  itemName: Cauliflower Seed
